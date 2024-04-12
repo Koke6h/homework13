@@ -46,7 +46,7 @@ public class Hufflepuff extends Student {
         int sum1 = student1.diligence + student1.loyalty + student1.honesty;
         int sum2 = student2.diligence + student2.loyalty + student2.honesty;
         if (sum1 > sum2) {
-            System.out.println(student1.name + " is the best student in Hufflepuff.");
+            System.out.println(student1.getName() + " is the best student in Hufflepuff.");
         } else if (sum1 < sum2) {
             System.out.println(student2.getName() + " is the best student in Hufflepuff.");
         } else {

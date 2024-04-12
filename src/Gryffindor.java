@@ -46,9 +46,9 @@ public class Gryffindor extends Student {
         int sum1 = student1.nobility + student1.honor + student1.bravery;
         int sum2 = student2.nobility + student2.honor + student2.bravery;
         if (sum1 > sum2) {
-            System.out.println(student1.name + " is the best student in Gryffindor.");
+            System.out.println(student1.getName() + " is the best student in Gryffindor.");
         } else if (sum1 < sum2) {
-            System.out.println(student2.name + " is the best student in Gryffindor.");
+            System.out.println(student2.getName() + " is the best student in Gryffindor.");
         } else {
             System.out.println("Among " + student1.getName() + " and " + student2.getName() + " the same amount of Gryffindor properties.");
         }

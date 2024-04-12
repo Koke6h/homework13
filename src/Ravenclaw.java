@@ -57,11 +57,11 @@ public class Ravenclaw extends Student {
         int sum1 = student1.creativity + student1.wit + student1.wisdom + student1.intelligence;
         int sum2 = student2.creativity + student2.wisdom + student2.wit + student2.intelligence;
         if (sum1 > sum2) {
-            System.out.println(student1.name + " is the best student in Ravenclaw.");
+            System.out.println(student1.getName() + " is the best student in Ravenclaw.");
         } else if (sum1 < sum2) {
-            System.out.println(student2.name + " is the best student in Ravenclaw.");
+            System.out.println(student2.getName() + " is the best student in Ravenclaw.");
         } else {
-            System.out.println("Among " + student1.name + " and " + student2.name + " the same amount of Ravenclaw properties.");
+            System.out.println("Among " + student1.getName() + " and " + student2.getName() + " the same amount of Ravenclaw properties.");
         }
     }
 }
