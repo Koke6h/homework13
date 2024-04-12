@@ -1,5 +1,5 @@
 public class Hogwarts {
-    public static void compareStudent(Student student1, Student student2) {
+    public static void compareStudents(Student student1, Student student2) {
         int magicalPower1 = student1.getMagic();
         int magicalPower2 = student2.getMagic();
         int transgression1 = student1.getTransgression();
@@ -45,5 +45,6 @@ public class Hogwarts {
         zachariasSmith.compareWith(cedricDiggory, justinFinchFletchley);
         choChang.printStudent();
         choChang.compareWith(padmaPatil, marcusBelby);
+        compareStudents(hermioneGranger, dracoMalfoy);
     }
 }

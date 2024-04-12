@@ -4,7 +4,11 @@ public class Student {
     int transgression;
     int magic;
 
-    public Student(String name, String surname, int magical, int transgression) {
+    public Student(String name, String surname, int transgression, int magic) {
+        this.name = name;
+        this.surname = surname;
+        this.transgression = transgression;
+        this.magic = magic;
     }
 
     public String getName() {
@@ -40,7 +44,7 @@ public class Student {
     }
 
     public void printStudent() {
-        System.out.println("Student: " + getName() + getSurname());
+        System.out.println("Student: " + getName() + " " + getSurname());
         System.out.println("Magic: " + getMagic() + ", transgression" + getTransgression());
     }
 }
